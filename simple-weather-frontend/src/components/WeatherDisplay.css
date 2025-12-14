@@ -1,0 +1,75 @@
+.weather-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.weather-card {
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.weather-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.weather-city {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.weather-icon {
+  font-size: 4rem;
+  margin: 16px 0;
+}
+
+.weather-name {
+  font-size: 1.25rem;
+  color: #555;
+  margin-bottom: 8px;
+}
+
+.weather-rainfall {
+  font-size: 1rem;
+  color: #1976d2;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+
+.weather-time {
+  font-size: 0.875rem;
+  color: #888;
+}
+
+.weather-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: #666;
+}
+
+.weather-empty p {
+  margin: 8px 0;
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 600px) {
+  .weather-grid {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .weather-card {
+    padding: 16px;
+  }
+
+  .weather-icon {
+    font-size: 3rem;
+  }
+}
