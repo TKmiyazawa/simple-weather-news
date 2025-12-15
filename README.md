@@ -34,7 +34,7 @@ AWS サーバーレスアーキテクチャを使用した認証機能付き天�
 | **テスト** | pytest, Vitest, プロパティベーステスト |
 | **CI/CD** | Makefile, デプロイ自動化 |
 
-詳細は [LEARNING_GUIDE.md](./LEARNING_GUIDE.md) を参照してください。
+詳細は [KIRO_LEARNING.md](./KIRO_LEARNING.md) を参照してください。
 
 ## アーキテクチャ
 
@@ -230,7 +230,7 @@ Kiro IDE のSpec駆動開発、Steering、Hooksの実践的な使い方を学べ
 ├── Makefile                      # ビルド・デプロイタスク
 ├── pytest.ini                    # pytest設定
 ├── requirements.txt              # Python依存関係
-├── LEARNING_GUIDE.md            # 学習ガイド
+├── LEARNING_CHECKLIST.md        # 学習進捗チェックリスト
 ├── DEPLOYMENT.md                 # デプロイ手順詳細
 └── CONTRIBUTING.md               # コントリビューションガイド
 ```
@@ -324,7 +324,7 @@ make test         # テスト実行
 
 | ドキュメント | 内容 |
 |-------------|------|
-| [LEARNING_GUIDE.md](./LEARNING_GUIDE.md) | サーバーレス学習ガイド（コード解説付き） |
+| [LEARNING_CHECKLIST.md](./LEARNING_CHECKLIST.md) | 学習進捗チェックリスト |
 | [KIRO_LEARNING.md](./KIRO_LEARNING.md) | Kiro IDE 学習ガイド（ハンズオン演習付き） |
 | [DEPLOYMENT.md](./DEPLOYMENT.md) | デプロイ手順の詳細 |
 | [IMPLEMENTATION_SUMMARY.md](./IMPLEMENTATION_SUMMARY.md) | 実装概要 |
