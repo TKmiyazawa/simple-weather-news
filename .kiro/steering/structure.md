@@ -97,10 +97,9 @@ simple-weather-news/
 └── Documentation
     ├── README.md                   # Project overview
     ├── CLAUDE.md                   # Claude Code guidance
-    ├── LEARNING_GUIDE.md           # Learning material (詳細)
-    ├── DEPLOYMENT.md               # Deployment procedures
-    ├── IMPLEMENTATION_SUMMARY.md   # Implementation overview
-    └── CONTRIBUTING.md             # Contribution guidelines
+    ├── KIRO_LEARNING.md            # Kiro IDE 学習ガイド
+    ├── KIRO_QUICKSTART.md          # 5分クイックスタート
+    └── LEARNING_CHECKLIST.md       # 学習進捗チェックリスト
 ```
 
 ## Naming Conventions

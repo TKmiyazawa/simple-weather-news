@@ -231,8 +231,8 @@ Kiro IDE のSpec駆動開発、Steering、Hooksの実践的な使い方を学べ
 ├── pytest.ini                    # pytest設定
 ├── requirements.txt              # Python依存関係
 ├── LEARNING_CHECKLIST.md        # 学習進捗チェックリスト
-├── DEPLOYMENT.md                 # デプロイ手順詳細
-└── CONTRIBUTING.md               # コントリビューションガイド
+├── KIRO_LEARNING.md             # Kiro IDE 学習ガイド
+└── KIRO_QUICKSTART.md           # 5分クイックスタート
 ```
 
 ## ローカル開発
@@ -326,9 +326,7 @@ make test         # テスト実行
 |-------------|------|
 | [LEARNING_CHECKLIST.md](./LEARNING_CHECKLIST.md) | 学習進捗チェックリスト |
 | [KIRO_LEARNING.md](./KIRO_LEARNING.md) | Kiro IDE 学習ガイド（ハンズオン演習付き） |
-| [DEPLOYMENT.md](./DEPLOYMENT.md) | デプロイ手順の詳細 |
-| [IMPLEMENTATION_SUMMARY.md](./IMPLEMENTATION_SUMMARY.md) | 実装概要 |
-| [CONTRIBUTING.md](./CONTRIBUTING.md) | コントリビューションガイド |
+| [KIRO_QUICKSTART.md](./KIRO_QUICKSTART.md) | 5分クイックスタート |
 
 ## ライセンス
 

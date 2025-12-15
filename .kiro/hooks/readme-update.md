@@ -46,7 +46,6 @@
 **template.yaml が変更された場合**:
 - 新しい AWS リソースが追加されたか
 - README.md の「Architecture」図の更新が必要か
-- DEPLOYMENT.md の手順更新が必要か
 - 環境変数や出力値が変更されたか
 
 **Makefile が変更された場合**:
@@ -62,8 +61,7 @@
 |-------------|---------------|
 | `README.md` | Architecture, API Endpoints, Deploy Commands |
 | `CLAUDE.md` | API Endpoints, Common Commands |
-| `LEARNING_GUIDE.md` | 学習コンテンツへの影響 |
-| `DEPLOYMENT.md` | デプロイ手順の変更 |
+| `KIRO_LEARNING.md` | 学習コンテンツへの影響 |
 
 ### 3. 更新提案フォーマット
 
@@ -83,5 +81,4 @@
 ## Reference Files
 - `README.md` - メインドキュメント
 - `CLAUDE.md` - Claude Code ガイダンス
-- `LEARNING_GUIDE.md` - 学習ガイド
-- `DEPLOYMENT.md` - デプロイ手順
+- `KIRO_LEARNING.md` - Kiro IDE 学習ガイド

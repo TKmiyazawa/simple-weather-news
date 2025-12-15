@@ -543,4 +543,3 @@ mkdir -p .kiro/specs/weather-alerts
 
 1. **[KIRO_QUICKSTART.md](./KIRO_QUICKSTART.md)** - 5分で始めるクイックスタート
 2. **[LEARNING_CHECKLIST.md](./LEARNING_CHECKLIST.md)** - 学習進捗チェックリスト
-3. **[LEARNING_GUIDE.md](./LEARNING_GUIDE.md)** - サーバーレスアーキテクチャの詳細学習

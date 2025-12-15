@@ -91,7 +91,7 @@ CSV アップロードによる天気データの一括管理
 | イベント駆動 | S3 トリガー Lambda | `csv_ingest/app.py` |
 
 ### 推奨学習パス
-1. `LEARNING_GUIDE.md` で基礎概念を理解
+1. `KIRO_QUICKSTART.md` で5分クイックスタート
 2. `KIRO_LEARNING.md` で Kiro IDE 機能を習得
 3. `.kiro/specs/` で仕様駆動開発を実践
 4. 新機能を Spec から実装して応用
